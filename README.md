@@ -27,13 +27,9 @@ The goal is to reconstruct the invariant mass of electron-positron pairs and obs
 ---
 
 ## Project Structure
-
-```
-
-.
-├── create\_db.sql        # Database creation + particle import
-├── dielectrons.sql      # Event selection
-├── run.sh              # Full pipeline automation
-├── plot\_m.py           # Histogram plotting
-├── particles.csv       # Input dataset (provided in repo)
-├── mee.csv             # Output dataset (generated)
+- create\_db.sql        (Database creation + particle import)
+- dielectrons.sql       (Event selection)
+- run.sh                (Full pipeline automation)
+- plot\_m.py            (Histogram plotting)
+- particles.csv         (Input dataset - provided in repo)
+- mee.csv              (Output dataset -generated)
