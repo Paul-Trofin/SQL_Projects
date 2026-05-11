@@ -35,6 +35,12 @@ The goal is to reconstruct the invariant mass of electron-positron pairs and obs
 - mee.csv              (Output dataset -generated)
 
 # Run like this:
+
 ```bash
 ./run.sh
+```
+This will create the output database "mee.csv".
+```bash
 python3 plot_m.py
+```
+This will create the histogram plot for the invariant mass.
