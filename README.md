@@ -35,6 +35,6 @@ The goal is to reconstruct the invariant mass of electron-positron pairs and obs
 - mee.csv              (Output dataset -generated)
 
 # Run like this:
-'''bash
+```bash
 ./run.sh
 python3 plot_m.py
