@@ -33,3 +33,8 @@ The goal is to reconstruct the invariant mass of electron-positron pairs and obs
 - plot\_m.py            (Histogram plotting)
 - particles.csv         (Input dataset - provided in repo)
 - mee.csv              (Output dataset -generated)
+
+# Run like this:
+'''bash
+./run.sh
+python3 plot_m.py
